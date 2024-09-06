@@ -600,7 +600,7 @@ INSERT INTO orders (users_id, client_id, states_id, created_at, updated_at, dele
 (90, 86, 6, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, NULL),
 (91, 87, 7, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, NULL),
 (92, 88, 8, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, NULL),
-(93, 89, 1, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, NULL),
+(93, 89, 1, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, NULL);
 
 -- Insertar registros en la tabla "category"
 INSERT INTO category (name, description, created_at, updated_at, deleted_at) VALUES 
