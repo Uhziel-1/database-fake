@@ -342,7 +342,7 @@ INSERT INTO orders (users_id, client_id, states_id, created_at, updated_at, dele
 -- Insertar registros en la tabla "category"
 INSERT INTO category (name, description, created_at, updated_at, deleted_at) VALUES 
 ('Cartera', 'Descripción de la categoría 1', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, NULL),
-('Monedero', 'Descripción de la categoría 2', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, NULL),;
+('Monedero', 'Descripción de la categoría 2', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, NULL);
 
 -- Insertar registros en la tabla "models"
 INSERT INTO models (category_id, name, description, created_at, updated_at, deleted_at) VALUES 
